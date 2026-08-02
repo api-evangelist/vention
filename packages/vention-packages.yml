@@ -1,0 +1,30 @@
+generated: '2026-07-21'
+method: searched
+source: https://pypi.org/project/machine-logic-sdk/
+packages:
+  - language: python
+    registry: pypi
+    name: machine-logic-sdk
+    url: https://pypi.org/project/machine-logic-sdk/
+    install: pip install machine-logic-sdk
+    version: 3.0.2
+    requires_python: '>=3.10,<3.11'
+    license: Proprietary
+    official: true
+    description: >-
+      Official Vention SDK for controlling Vention hardware (MachineMotion
+      controllers). Provides a programmatic Python interface to control motion,
+      digital I/O, robots, and to coordinate automation programs. Imported as
+      `from MachineMotion import *`. Pre-installed on MachineMotion controllers.
+  - language: python
+    registry: github
+    name: mm-python-api
+    url: https://github.com/VentionCo/mm-python-api
+    install: git clone https://github.com/VentionCo/mm-python-api
+    version: 'v4.2'
+    official: true
+    legacy: true
+    description: >-
+      Original MachineMotion Python API source repository (VentionCo GitHub org).
+      Legacy socketIO/MQTT-based client (last release v4.2, 2021); superseded by
+      the PyPI machine-logic-sdk for current MachineMotion controllers.

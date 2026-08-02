@@ -1,0 +1,36 @@
+generated: '2026-07-21'
+method: searched
+source: https://pypi.org/project/machine-logic-sdk/
+subject: machine-logic-sdk (Vention MachineMotion Python SDK)
+scheme: semver
+current_version: 3.0.2
+notes: >-
+  Vention publishes no single dated public changelog page; the authoritative
+  version history is the PyPI release timeline for the official
+  machine-logic-sdk package plus the release-notes.md in the legacy
+  VentionCo/mm-python-api GitHub repo. Recent releases captured from the PyPI
+  release history (upload dates).
+entries:
+  - version: 3.0.2
+    date: '2026-06-18'
+  - version: 3.0.1
+    date: '2026-03-26'
+  - version: 3.0.0
+    date: '2026-02-12'
+    breaking: true
+    highlights: Major version 3.x line of the MachineMotion SDK.
+  - version: 1.14.1
+    date: '2026-01-27'
+  - version: 2.2.0
+    date: '2025-12-19'
+  - version: 2.1.1
+    date: '2025-11-14'
+  - version: 2.1.0
+    date: '2025-10-03'
+  - version: 2.0.0
+    date: '2025-05-05'
+    breaking: true
+    highlights: Major version 2.x line of the MachineMotion SDK.
+sources:
+  - https://pypi.org/project/machine-logic-sdk/#history
+  - https://github.com/VentionCo/mm-python-api/blob/master/release-notes.md

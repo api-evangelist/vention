@@ -1,0 +1,28 @@
+generated: '2026-07-21'
+method: searched
+source: live probes of vention.com and docs.vention.com /.well-known/ + /llms.txt
+hosts:
+  - host: https://vention.com
+    documents:
+      - path: /.well-known/security.txt          # RFC 9116
+        status: 200
+        file: vention-security.txt
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+      - path: /.well-known/api-catalog
+        status: 404
+      - path: /llms.txt
+        status: 404
+  - host: https://docs.vention.com
+    documents:
+      - path: /llms.txt                           # llms.txt (saved to llms/vention-llms.txt)
+        status: 200
+        file: ../llms/vention-llms.txt
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/api-catalog
+        status: 404
