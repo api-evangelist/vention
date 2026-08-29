@@ -12,6 +12,17 @@ description: >-
   (machine-logic-sdk, imported as `from MachineMotion import *`), which exposes
   motion control, digital I/O, robot coordination, and path execution. Vention
   reports 28,000+ machines running globally and use by 90 of the Fortune 500.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
